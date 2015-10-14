@@ -1,5 +1,5 @@
 class HelloWorld {
 	static void main(args){
-		println "Hello World"
+		println "Hello ${args[0]}"
 	}
 }

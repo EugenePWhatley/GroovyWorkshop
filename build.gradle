@@ -13,3 +13,8 @@ dependencies {
 
 mainClassName = "HelloWorld"
 
+run {
+	if ( project.hasProperty("appArgs") ) {
+		args appArgs
+	}
+}
