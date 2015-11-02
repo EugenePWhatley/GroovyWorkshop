@@ -1,3 +1,5 @@
+package HelloWorld
+
 class HelloWorld {
 	String name
 

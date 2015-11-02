@@ -12,7 +12,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-mainClassName = "Main"
+mainClassName = "HelloWorld.Main"
 
 run {
 	if ( project.hasProperty("appArgs") ) {
